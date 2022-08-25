@@ -1,0 +1,33 @@
+body{
+    background-color: pink;
+}
+input{
+    font-size: 1.5em;
+    outline: none;
+    border: 1.5px solid #757575;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+button{
+    padding: 15px;
+    margin-left: 5px;
+    color: #757575;
+}
+@media all and (max-width : 425px){
+    input{
+        font-size: 1em;
+        text-align: center;
+    }
+    button{
+        padding: 10px;
+    }
+    .inputt{
+        display: grid;
+    }
+    .buttonn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5px;
+    }
+}
