@@ -25,9 +25,9 @@ button{
     .inputt{
         display: grid;
     }
-    /* .buttonn{
+    .buttonn{
         display: grid;
         grid-template-columns: 1fr 1fr;
         row-gap: 5px;
-    } */
+    }
 }
